@@ -242,6 +242,11 @@ body::-webkit-scrollbar-thumb:active {
     color: var(--gold);
     font-size: 70px;
 }
+/* .sign a {
+    text-decoration: none;
+    color: var(--gold);
+    transition: all 1s;
+} */
 
 
 .article2 {
@@ -403,6 +408,13 @@ body::-webkit-scrollbar-thumb:active {
 .p-contact {
     font-size: 18px;
 }
+.p-contact a {
+    text-decoration: none;
+    color: var(--gold);
+}
+.p-contact a:hover {
+    color: var(--white);
+}
 
 /* section5 */
 @media (max-width: 720px) {
@@ -436,6 +448,14 @@ body::-webkit-scrollbar-thumb:active {
 .container-footer, .container2-footer {
     margin-top: 50px;
 }
+.container2-footer p a {
+    text-decoration: none;
+    color: var(--gold);
+}
+.container2-footer p a:hover {
+    color: var(--white);
+    font-size: 16.3px;
+}
 .title-footer {
     margin: 0;
     margin-bottom: 2rem;
@@ -458,6 +478,7 @@ body::-webkit-scrollbar-thumb:active {
     border: 1px solid var(--white);
     padding: 5px;
     padding-left: 20px;
+    border-radius: 5px;
 }
 .form button {
     height: 40px;
@@ -466,6 +487,7 @@ body::-webkit-scrollbar-thumb:active {
     border: none;
     cursor: pointer;
     margin-right: 30px;
+    border-radius: 5px;
 }
 .form button:hover {
     background-color: rgb(156, 142, 101);
